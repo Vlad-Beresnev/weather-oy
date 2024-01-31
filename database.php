@@ -1,8 +1,8 @@
 <?php
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'taitaja2023');
-define('DB_PASSWORD', "taitaja2023");
-define('DB_NAME', 'weather_oy_db');
+define('DB_PASSWORD', "b3E1APd9iR9Iyr3j");
+define('DB_NAME', 'weather_oy_database');
 
 function connect() {
     $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
